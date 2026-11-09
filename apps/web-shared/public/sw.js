@@ -1,7 +1,6 @@
 // Offline support: cache the app shell and same-origin assets as they are fetched.
 const CACHE = 'sheetline-v1';
-// Caches this app has made (abacusline, pascaline and online-spreadsheet-designer were its earlier names); other apps on the same origin keep theirs.
-const OWN = /^(sheetline|abacusline|pascaline|online-spreadsheet-designer)-v\d+$/;
+const OWN = /^sheetline-v\d+$/;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './icon.svg'])).then(() => self.skipWaiting()));

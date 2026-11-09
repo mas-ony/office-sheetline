@@ -2,6 +2,17 @@
   "name": "sheetline",
   "version": "0.1.0",
   "description": "Browser-based XLSX spreadsheet editor for desktop and mobile, with a ribbon, formulas, charts and sparklines: the built app, ready to host as static files",
+  "keywords": [
+    "charts",
+    "excel",
+    "formula-engine",
+    "office",
+    "pdf",
+    "sparklines",
+    "spreadsheet",
+    "spreadsheet-editor",
+    "xlsx"
+  ],
   "homepage": "https://github.com/mas-ony/office-sheetline#readme",
   "bugs": {
     "url": "https://github.com/mas-ony/office-sheetline/issues"
