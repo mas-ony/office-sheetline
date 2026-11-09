@@ -1,0 +1,32 @@
+/* The app's page: the editor fills it, on the frame colour of its theme. */
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  color-scheme: light;
+  background: #f3f3f3;
+  color: #262626;
+  font: 13px/1.35 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Arimo', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+  background: #1f1f1f;
+  color: #f0f0f0;
+}
+
+/* The same background all the way down to the editor. */
+body,
+#root {
+  background: inherit;
+}
+
+body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}

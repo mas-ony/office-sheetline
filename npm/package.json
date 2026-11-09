@@ -1,0 +1,22 @@
+{
+  "name": "sheetline",
+  "version": "0.1.0",
+  "description": "Browser-based XLSX spreadsheet editor for desktop and mobile, with a ribbon, formulas, charts and sparklines: the built app, ready to host as static files",
+  "homepage": "https://github.com/mas-ony/office-sheetline#readme",
+  "bugs": {
+    "url": "https://github.com/mas-ony/office-sheetline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mas-ony/office-sheetline.git",
+    "directory": "npm"
+  },
+  "license": "MIT",
+  "author": "Ony Octavianto",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "pnpm --dir .. run build:npm"
+  }
+}
