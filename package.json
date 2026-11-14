@@ -1,6 +1,6 @@
 {
   "name": "sheetline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Browser-based XLSX spreadsheet editor for desktop and mobile, with a ribbon, formulas, charts and sparklines; React and Vue components",
   "homepage": "https://github.com/mas-ony/office-sheetline#readme",

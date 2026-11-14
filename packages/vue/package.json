@@ -1,8 +1,20 @@
 {
   "name": "@sheetline/vue",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "description": "Sheetline spreadsheet editor as a Vue component",
+  "keywords": [
+    "charts",
+    "excel",
+    "formula-engine",
+    "office",
+    "pdf",
+    "sparklines",
+    "spreadsheet",
+    "spreadsheet-editor",
+    "typescript",
+    "vue",
+    "xlsx"
+  ],
   "homepage": "https://github.com/mas-ony/office-sheetline#readme",
   "bugs": {
     "url": "https://github.com/mas-ony/office-sheetline/issues"

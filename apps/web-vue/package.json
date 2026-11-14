@@ -1,6 +1,6 @@
 {
   "name": "@sheetline/web-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Sheetline as a web app built with the Vue component",
   "type": "module",

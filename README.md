@@ -28,6 +28,7 @@ pnpm dev:vue         # the Vue app: http://localhost:5182
 pnpm build           # the packages into packages/*/dist, the apps into apps/web-react/dist and apps/web-vue/dist
                      # (installable PWAs when served over HTTPS)
 pnpm build:npm       # the React app without source maps in npm/dist, for the npm package
+pnpm -r publish --access public  # after pnpm build: the packages in packages/ to npm (pnpm turns workspace:* into versions)
 pnpm preview         # serve the React app's build on port 4176
 pnpm preview:vue     # serve the Vue app's build on port 4182
 pnpm test            # unit tests (formula engine, XLSX/XLS/XLSB, data tools, charts, print, PDF)
@@ -87,10 +88,10 @@ editor feature-detects all of these.
 
 ### Components
 
-`@sheetline/react` and `@sheetline/vue` each export an `SheetlineEditor` component and a
-`mount()` function, with the same options. Import the package's `style.css` once (the fonts and
-the editor's styles). The editor fills the height of its element, so give it (or its container) a
-height.
+`@sheetline/react` and `@sheetline/vue` each export a `SheetlineEditor` component and a `mount()`
+function, with the same options. Both are on npm: `npm install @sheetline/react react react-dom` or
+`npm install @sheetline/vue vue`. Import the package's `style.css` once (the fonts and the editor's
+styles). The editor fills the height of its element, so give it (or its container) a height.
 
 ```tsx
 import { SheetlineEditor } from '@sheetline/react';
@@ -224,8 +225,6 @@ modules in `packages/core/src/core/doc/`) and `ed.grid` to the grid
 
 ## Known gaps
 
-- The packages in `packages/` are not published to npm yet (they are marked private); another
-  project can use them from this workspace or from `pnpm pack` archives.
 - PivotTables, slicers, form controls, camera pictures, external data connections and sheet
   background pictures are not supported, and the ribbon has no KeyTips (Excel's keyboard
   shortcuts work instead).

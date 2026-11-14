@@ -1,8 +1,20 @@
 {
   "name": "@sheetline/react",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "description": "Sheetline spreadsheet editor as a React component",
+  "keywords": [
+    "charts",
+    "excel",
+    "formula-engine",
+    "office",
+    "pdf",
+    "react",
+    "sparklines",
+    "spreadsheet",
+    "spreadsheet-editor",
+    "typescript",
+    "xlsx"
+  ],
   "homepage": "https://github.com/mas-ony/office-sheetline#readme",
   "bugs": {
     "url": "https://github.com/mas-ony/office-sheetline/issues"

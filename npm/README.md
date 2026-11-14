@@ -6,9 +6,9 @@ menus, on its own canvas grid, formula engine and XLSX reader and writer. On pho
 layout, and it also works over a plain HTTP address on the local network.
 
 This package is the built app: static files to put on a web server. It has no dependencies and
-nothing to build. The React and Vue packages, for putting the editor inside an app instead, are in
-the [repository](https://github.com/mas-ony/office-sheetline) (`packages/react` and `packages/vue`) and
-are not on npm yet.
+nothing to build. The React and Vue packages, for putting the editor inside an app instead, are
+[`@sheetline/react`](https://www.npmjs.com/package/@sheetline/react) and
+[`@sheetline/vue`](https://www.npmjs.com/package/@sheetline/vue).
 
 ## Install
 
